@@ -1,4 +1,4 @@
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 $(call inherit-product, vendor/aosp/config/cdma.mk)
 
@@ -20,4 +20,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_jewel BUILD_ID=IMM76D BUILD_FIN
 
 # Release name
 PRODUCT_RELEASE_NAME := jewel
--include vendor/cm/config/common_versions.mk
+-include vendor/aosp/config/common_versions.mk
